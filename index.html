@@ -15,7 +15,7 @@
     <hr>
 
     <main>
-        <div id="inicio">
+        <section id="inicio">
             <div id="eu">
                 <p id="destaque-grande"><span id="pulaLinha">Olá eu sou o</span><br>
                     <span id="destaque2">Victor Luan :)</span><br>
@@ -23,19 +23,19 @@
                 <input type="button" value="Download CV" id="btnCheio" class="btnCv">
                 <input type="button" value="Entrar em contato" id="btnVazio" class="btnCv">
             </div>
-            <a href="https://github.com/VictorLCM1227">
+            <a href="https://github.com/VictorLCM1227" target="_blank">
                 <img src="love.png" alt="Foto de perfil" id="perfil">
             </a>
-        </div>
+        </section>
 
-        <div id="sobre">
-        <h2>Sobre mim</h2>
-        <div class="comprimido">
-            <p>Estudante de Desenvolvimento de Sistemas com foco em desenvolvimento web e objetivo de me tornar um Desenvolvedor Full Stack. Atualmente, desenvolvo meus conhecimentos em HTML, CSS, JavaScript e Python, utilizando Git e GitHub para construir e versionar meus projetos. Sou apaixonado por programação e pelo desenvolvimento de soluções, gosto de aprender novas tecnologias na prática e busco evoluir continuamente minhas habilidades para criar aplicações cada vez mais funcionais, eficientes e bem estruturadas.</p>
-        </div>
-        </div>
+        <section id="sobre">
+            <h2>Sobre mim</h2>
+            <div class="comprimido">
+                <p>Estudante de Desenvolvimento de Sistemas com foco em desenvolvimento web e objetivo de me tornar um Desenvolvedor Full Stack. Atualmente, desenvolvo meus conhecimentos em HTML, CSS, JavaScript e Python, utilizando Git e GitHub para construir e versionar meus projetos. Sou apaixonado por programação e pelo desenvolvimento de soluções, gosto de aprender novas tecnologias na prática e busco evoluir continuamente minhas habilidades para criar aplicações cada vez mais funcionais, eficientes e bem estruturadas.</p>
+            </div>
+        </section>
         <!--Skill card-->
-        <div id="habilidades">
+        <section id="habilidades">
     <h2>Habilidades</h2>
 
     <div class="cards">
@@ -75,21 +75,61 @@
             <img src="imagens/github.png" alt="Imagem de GitHub">
         </div>
 
-    </div>
-        <div id="projetos" class="importante">
+    </section>
+
+
+
+
+        <section id="projetos">
             <h2>Projetos</h2>
-            <div id="destaques">
-                <h3>Destaques</h3>
+            
+            <h3>Destaques</h3>
 
+            <div class="projetos-destaques">
+                <article class="projeto-card">
+                    <div class="projeto-imagem">
+                        <img src="#" alt="Site de Consulta">
+                        <div class="projeto-info">
+                            <h4>Site de Consulta</h4>
+                            <div class="tecnologias">
+                                <span>Js</span>
+                                <span>Python</span>
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>Flask</span>
+                            </div>
+                        </div>
 
+                        <div class="projeto-hover">
+
+                            <div class="projeto-data">
+                                12 de setembro de 2026
+                            </div>  
+
+                            <button onclick="abrirProjeto()">
+                                Ver mais
+                            </button>
+
+                        </div>
+                    </div>
+                </article>
             </div>
-            <div id="Todos">
+        </section>
+
+
+           
                 <h3>Todos os projetos</h3>
 
-            </div>
-        </div>
+          
+        </section>
 
-        <div id="rodape">
+
+
+
+
+
+
+        <section id="rodape">
             <h2>Contatos</h2>
 
             <div id="contatos">
@@ -119,7 +159,7 @@
 
             </div>
             
-        </div>
+        </section>
     </main>
 
 
