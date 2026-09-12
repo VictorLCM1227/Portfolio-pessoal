@@ -1,0 +1,151 @@
+
+body {
+    background-color: #13131F;
+    color: white;
+}
+
+hr {
+  background-color: red;
+  height: 2px;               
+  border: none;     
+  margin-bottom: 100px;        
+}
+
+h1 {
+    text-align: center;
+}
+
+p#destaque-grande > span#pulaLinha {
+        line-height: 5.4rem;
+}
+
+p#destaque-grande {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3.2rem;
+    font-weight: 500;
+    color: rgb(249, 249, 249);
+    line-height: 2rem;
+    margin-left: 30px;
+}
+
+p#destaque-grande > span#destaque2 {
+    color: red;
+}
+
+p#destaque-grande > span#paragrafo {
+    color: gray;
+    font-size: medium;
+}
+
+.btnCv {
+    background-color: #13131F;
+    color: white;
+    font-size: 1.4rem;
+    padding: 1.2rem 2.7rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    border-color: red;
+    margin-right: 30px;
+    transition: 0.5s;
+    margin-top: 10px;
+}
+
+.btnCv:hover {
+    background-color: rgb(140, 0, 0);
+    transform: scale(0.95);
+    
+}
+    
+#btnCheio {
+    background-color: red;
+}
+
+#btnVazio:hover, #btnCheio:hover {
+    background-color: rgb(140, 0, 0);
+}
+
+p#paragrafo, p {
+    color: gray;
+}
+
+img#perfil {
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    border: 8px solid red;
+}
+
+#inicio {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 150px;
+}
+
+div#sobre {
+    text-align: center;
+}
+
+p {
+    font-size: 22px;
+}
+
+div.comprimido {
+    width: 700px;
+    margin: auto;
+}
+
+#habilidades {
+    padding: 50px;
+    background-color: #13131F;
+}
+
+p#habilidades {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+/*skill card*/
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 150px);
+    gap: 30px;
+    justify-content: center;
+}
+
+.card {
+    height: 140px;
+    width: 140px;
+    background: #212121;
+    border-radius: 20px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 3px solid red;
+    transition: 0.3s;
+}
+
+.card p {
+    color: white;
+    margin-bottom: 15px;
+}
+
+.card img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    background: #323232;
+}

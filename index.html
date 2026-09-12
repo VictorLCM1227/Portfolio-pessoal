@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,41 +8,79 @@
     <link rel="shortcut icon" href="395" type="image/x-icon">
 </head>
 <body>
+
     <header>
-        <h2>Portifolio</h2>
+        <h1>Portifólio</h1>
     </header>
+    <hr>
+
     <main>
-        <div id="eu">
-            <h1>Olá eu sou o</h1>
-            <p>Victor Luan :)</p>
-            <p>Estudante de Desenvolvimento de Sistemas</p>
-            <a href="#">Download CV</a>
-            <a href="#">Entrar em contato</a>
-            <a href="#">
-            <img src="love.png" alt="Foto de perfil">
-        </a>
+        <div id="inicio">
+            <div id="eu">
+                <p id="destaque-grande"><span id="pulaLinha">Olá eu sou o</span><br>
+                    <span id="destaque2">Victor Luan :)</span><br>
+                    <span id="paragrafo">Estudante de Desenvolvimento de Sistemas | Node.js</span></p>
+                <input type="button" value="Download CV" id="btnCheio" class="btnCv">
+                <input type="button" value="Entrar em contato" id="btnVazio" class="btnCv">
+            </div>
+            <a href="https://github.com/VictorLCM1227">
+                <img src="love.png" alt="Foto de perfil" id="perfil">
+            </a>
         </div>
+
         <div id="sobre">
         <h2>Sobre mim</h2>
-        <p>Estudante de Desenvolvimento de Ssitemas aprendendo Js,Python, HTML, CSS, Git e github</p>
+        <div class="comprimido">
+            <p>Estudante de Desenvolvimento de Sistemas com foco em desenvolvimento web e objetivo de me tornar um Desenvolvedor Full Stack. Atualmente, desenvolvo meus conhecimentos em HTML, CSS, JavaScript e Python, utilizando Git e GitHub para construir e versionar meus projetos. Sou apaixonado por programação e pelo desenvolvimento de soluções, gosto de aprender novas tecnologias na prática e busco evoluir continuamente minhas habilidades para criar aplicações cada vez mais funcionais, eficientes e bem estruturadas.</p>
         </div>
+        </div>
+        <!--Skill card-->
         <div id="habilidades">
-            <h2>Habilidades</h2>
+    <h2>Habilidades</h2>
+
+    <div class="cards">
+
+        <div class="card">
             <p>HTML5</p>
-            <img src="#" alt="Imagem de HTML5">
-            <p>CSS3</p>
-            <img src="#" alt="Imagem de CSS3">
-            <p>JavaScript</p>
-            <img src="#" alt="Imagem de JavaScript">
-            <p>Python</p>
-            <img src="#" alt="Imagem de Python">
-            <p>Figma</p>
-            <img src="#" alt="Imagem de Figma">
+            <img src="imagens/html.png" alt="Imagem de HTML5">
         </div>
-        <div id="projetos">
+
+        <div class="card">
+            <p>CSS3</p>
+            <img src="imagens/css.png" alt="Imagem de CSS3">
+        </div>
+
+        <div class="card">
+            <p>JavaScript</p>
+            <img src="imagens/js.png" alt="Imagem de JavaScript">
+        </div>
+
+        <div class="card">
+            <p>Python</p>
+            <img src="imagens/python.png" alt="Imagem de Python">
+        </div>
+
+        <div class="card">
+            <p>Figma</p>
+            <img src="imagens/figma.png" alt="Imagem de Figma">
+        </div>
+
+        <div class="card">
+            <p>Git</p>
+            <img src="imagens/git.png" alt="Imagem de Git">
+        </div>
+
+        <div class="card">
+            <p>GitHub</p>
+            <img src="imagens/github.png" alt="Imagem de GitHub">
+        </div>
+
+    </div>
+        <div id="projetos" class="importante">
             <h2>Projetos</h2>
             <div id="destaques">
                 <h3>Destaques</h3>
+
 
             </div>
             <div id="Todos">
@@ -52,7 +90,21 @@
         </div>
         <div id="contatos">
             <h3>Contatos</h3>
-
+            <a href="#">
+                <img src="#" alt="Email">
+                <h4>E-mail</h4>
+                <p>victor..luan.costa.matos.work@gamil.com</p>
+            </a>
+            <a href="https://www.linkedin.com/in/victor-luan-costa-matos/">
+                <img src="#" alt="Linkedin">
+                <h4>Linkedin</h4>
+                <p>@victor-luan-costa-matos</p>
+            </a>
+            <a href="https://github.com/VictorLCM1227">
+                <img src="#" alt="Github">
+                <h4>Github</h4>
+                <p>@VictorLCM1227</p>
+            </a>
         </div>
     </main>
 
@@ -60,3 +112,4 @@
     <script src=""></script>
 </body>
 </html>
+
