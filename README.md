@@ -1,75 +1,41 @@
-# Portfólio Pessoal
+# Portfólio Pessoal - Victor Luan
+
+Meu portfólio pessoal desenvolvido para apresentar um pouco sobre mim, minhas habilidades, meus projetos e meus objetivos como estudante de Desenvolvimento de Sistemas.
 
 ## Sobre o projeto
 
-Um site pessoal desenvolvido para apresentar minha trajetória como estudante de desenvolvimento de sistemas, meus conhecimentos, projetos e objetivos profissionais.
+Este projeto foi desenvolvido como uma forma de praticar e aplicar os conhecimentos que estou adquirindo em desenvolvimento web.
 
-A ideia é criar um portfólio moderno, responsivo e organizado que possa ser utilizado para apresentar meu trabalho e meus projetos na área de programação.
+O portfólio apresenta:
 
-## Objetivo
+- Sobre mim
+- Habilidades
+- Projetos
+- Formas de contato
 
-Desenvolver um portfólio completo utilizando HTML, CSS e JavaScript, praticando desenvolvimento frontend, organização de interfaces, responsividade e interatividade.
+O projeto está sendo desenvolvido gradualmente e receberá novas funcionalidades conforme eu evoluir meus conhecimentos.
 
-O projeto também servirá como uma forma de apresentar minha evolução e meus projetos desenvolvidos durante meus estudos.
+## Tecnologias utilizadas
 
-## O que pretendo colocar
+- HTML5
+- CSS3
+- JavaScript
+- Git
+- GitHub
 
-* [ ] Página inicial
-* [ ] Apresentação pessoal
-* [ ] Sobre mim
-* [ ] Tecnologias e conhecimentos
-* [ ] Projetos
-* [ ] Projetos em destaque
-* [ ] Experiência e formação
-* [ ] Objetivos profissionais
-* [ ] Contato
-* [ ] Links para GitHub e LinkedIn
-* [ ] Design responsivo
-* [ ] Animações e interações
+## Inspiração
 
-## Tecnologias
+A estrutura e algumas ideias visuais deste portfólio foram inspiradas no portfólio de **Rhuan Bello**.
 
-* HTML5
-* CSS3
-* JavaScript
+🔗 [Portfólio do Rhuan Bello](https://www.rhuanbello.com/)
 
-## O que vou praticar
+O projeto foi desenvolvido de forma independente, utilizando a referência apenas como inspiração para a organização e apresentação das informações.
 
-* HTML semântico
-* CSS Flexbox
-* CSS Grid
-* Responsividade
-* Design de interfaces
-* Tipografia
-* Animações e transições
-* JavaScript
-* Manipulação do DOM
-* Organização de projetos frontend
-* Git e GitHub
-* Deploy
+## Autor
 
-## Estrutura planejada
+**Victor Luan Costa Matos**
 
-1. **Hero** — apresentação e área de atuação
-2. **Sobre mim** — trajetória, interesses e objetivos
-3. **Conhecimentos** — tecnologias que estudo e utilizo
-4. **Projetos** — projetos desenvolvidos
-5. **Formação** — cursos e estudos
-6. **Contato** — formas de contato e redes profissionais
-7. **Footer** — links e informações adicionais
+Estudante de Desenvolvimento de Sistemas
 
-## Status
-
-🚧 Planejamento
-
-## Futuras melhorias
-
-* Adicionar modo escuro
-* Criar animações mais avançadas
-* Adicionar versão em inglês
-* Criar página individual para cada projeto
-* Adicionar filtros para os projetos
-* Criar formulário de contato funcional
-* Integrar com um backend
-* Adicionar domínio personalizado
-* Publicar o portfólio na internet
+- GitHub: [VictorLCM1227](https://github.com/VictorLCM1227)
+- LinkedIn: [Victor Luan Costa Matos](https://www.linkedin.com/in/victor-luan-costa-matos/)
